@@ -1,0 +1,103 @@
+:root {
+  --bodyColor: #656e83;
+  --leftColor: #ffffff;
+  --rightColor: #5b2d90;
+}
+body {
+  background-color: var(--bodyColor);
+  margin: 0;
+  font-family: sans-serif;
+}
+p {
+  margin: 10px 0 0 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+  height: 1193.2px;
+  padding: 10px;
+}
+
+.block {
+  margin-top: 20px;
+}
+li {
+  margin-top: 10px;
+}
+ul {
+  padding: 0 0 0 40px;
+  margin: 0;
+}
+.leftSide {
+  background-color: var(--leftColor);
+  width: 590px;
+  padding: 80px 40px 80px 40px;
+  float: left;
+  border-radius: 10px 0 0 10px;
+}
+.rightSide {
+  background-color: var(--rightColor);
+  width: 250px;
+  padding: 180px 40px 225.6px 40px;
+  color: #ffffff;
+  float: left;
+  border-radius: 0 10px 10px 0;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title {
+  margin: 0 0 0 10px;
+  height: 80px;
+  display: inline-block;
+}
+.biggestHeader {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 15px 0 0 0;
+}
+.largeHeader {
+  font-size: 20px;
+  margin: 0;
+}
+.middleHeader {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+.additional {
+  opacity: 0.5;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.non-styled-list {
+  list-style-type: none;
+  padding: 0;
+}
+.skill-block {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main {
+      padding: 0;
+    }
+    .leftSide{
+      border-radius: 0;
+    }
+    .rightSide{
+      border-radius: 0;
+    }
+  }
