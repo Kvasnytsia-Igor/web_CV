@@ -20,7 +20,7 @@ a {
   margin: 0 auto;
   position: relative;
   width: 1000px;
-  height: 1193.2px;
+  height: 1211.6px;
   padding: 10px;
 }
 
@@ -44,7 +44,7 @@ ul {
 .rightSide {
   background-color: var(--rightColor);
   width: 250px;
-  padding: 180px 40px 225.6px 40px;
+  padding: 180px 40px 187.2px 40px;
   color: #ffffff;
   float: left;
   border-radius: 0 10px 10px 0;
