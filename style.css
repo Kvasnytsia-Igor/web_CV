@@ -20,7 +20,7 @@ a {
   margin: 0 auto;
   position: relative;
   width: 1000px;
-  height: 1211.6px;
+  height: 1296.8px;
   padding: 10px;
 }
 
@@ -37,14 +37,14 @@ ul {
 .leftSide {
   background-color: var(--leftColor);
   width: 590px;
-  padding: 80px 40px 80px 40px;
+  padding: 80px 40px 128.4px 40px;
   float: left;
   border-radius: 10px 0 0 10px;
 }
 .rightSide {
   background-color: var(--rightColor);
   width: 250px;
-  padding: 180px 40px 187.2px 40px;
+  padding: 80px 40px 80px 40px;
   color: #ffffff;
   float: left;
   border-radius: 0 10px 10px 0;
