@@ -44,7 +44,7 @@ ul {
 .rightSide {
   background-color: var(--rightColor);
   width: 250px;
-  padding: 170px 40px 289.2px 40px;
+  padding: 80px 40px 270.4px 40px;
   color: #ffffff;
   float: left;
   border-radius: 0 10px 10px 0;
@@ -85,7 +85,6 @@ ul {
   padding: 0;
 }
 .skill-block {
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
