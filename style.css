@@ -1,12 +1,18 @@
 :root {
-  --bodyColor: #656e83;
+  --bodyColor: #e0e0e0;
   --leftColor: #ffffff;
   --rightColor: #5b2d90;
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(/Roboto/Roboto-Regular.ttf);
+}
+
 body {
+  font-family: "Roboto", sans-serif;
   background-color: var(--bodyColor);
   margin: 0;
-  font-family: sans-serif;
 }
 p {
   margin: 10px 0 0 0;
@@ -20,7 +26,7 @@ a {
   margin: 0 auto;
   position: relative;
   width: 1000px;
-  height: 1094.8px;
+  height: 1298.8px;
   padding: 10px;
 }
 
@@ -44,7 +50,7 @@ ul {
 .rightSide {
   background-color: var(--rightColor);
   width: 250px;
-  padding: 80px 40px 270.4px 40px;
+  padding: 180px 40px 319.2px 40px;
   color: #ffffff;
   float: left;
   border-radius: 0 10px 10px 0;
@@ -89,14 +95,17 @@ ul {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 1000px) {
-    .main {
-      padding: 0;
-    }
-    .leftSide{
-      border-radius: 0;
-    }
-    .rightSide{
-      border-radius: 0;
-    }
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: white;
   }
+  .main {
+    padding: 0;
+  }
+  .leftSide {
+    border-radius: 0;
+  }
+  .rightSide {
+    border-radius: 0;
+  }
+}
