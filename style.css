@@ -26,16 +26,18 @@ a {
   margin: 0 auto;
   position: relative;
   width: 1000px;
-  height: 1308.6px;
+  height: 1310px;
   padding: 10px;
 }
 
 .block {
   margin-top: 20px;
 }
+
 li {
   margin-top: 10px;
 }
+
 ul {
   padding: 0 0 0 40px;
   margin: 0;
@@ -43,14 +45,15 @@ ul {
 .leftSide {
   background-color: var(--leftColor);
   width: 590px;
-  padding: 80px 40px 80px 40px;
+  padding: 80px 40px 81.4px 40px;
   float: left;
   border-radius: 10px 0 0 10px;
 }
+
 .rightSide {
   background-color: var(--rightColor);
   width: 250px;
-  padding: 180px 40px 228.2px 40px;
+  padding: 80px 40px 80px 40px;
   color: #ffffff;
   float: left;
   border-radius: 0 10px 10px 0;
